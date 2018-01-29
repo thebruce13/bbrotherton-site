@@ -1,0 +1,17 @@
+# Menus for jekyll menus
+
+main:
+ - url: /
+   title: Home
+   identifier: home
+ - url: /work
+   title: Work
+   identifier: work
+ - url: /resume
+   title: Resume
+   identifier: resume
+ - url: /contact
+   title: Contact
+   identifier: contact
+ - url: http://design.brucebrotherton.com
+   title: Design

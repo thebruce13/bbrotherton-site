@@ -11,8 +11,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #111;
+  font: 400 16px/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fafafa;
   background-color: #333333;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -66,13 +66,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #fafafa;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #fafafa; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: #e2e2e2; }
 
 /**
  * Blockquotes
@@ -145,70 +144,6 @@ pre {
     fill: #828282; }
 
 /**
- * Site header
- */
-.site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  position: relative; }
-
-.site-title {
-  font-size: 26px;
-  font-weight: 300;
-  line-height: 56px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left; }
-  .site-title, .site-title:visited {
-    color: #424242; }
-
-.site-nav {
-  float: right;
-  line-height: 56px; }
-  .site-nav .menu-icon {
-    display: none; }
-  .site-nav .page-link {
-    color: #111;
-    line-height: 1.5; }
-    .site-nav .page-link:not(:last-child) {
-      margin-right: 20px; }
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      position: absolute;
-      top: 9px;
-      right: 15px;
-      background-color: #333333;
-      border: 1px solid #e8e8e8;
-      border-radius: 5px;
-      text-align: right; }
-      .site-nav .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
-          .site-nav .menu-icon > svg path {
-            fill: #424242; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px;
-        margin-left: 20px; }
-        .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } }
-
-/**
  * Site footer
  */
 .site-footer {
@@ -263,6 +198,17 @@ pre {
 /**
  * Page content
  */
+.page-content-wrapper {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  z-index: -1;
+  padding-top: 2rem;
+  background: linear-gradient(to bottom right, rgba(0, 102, 255, 0.4), rgba(255, 115, 0, 0.2)), url("../img/norbert-levajsics-186341.jpg") center center;
+  background-size: cover;
+  background-color: #b0b6f8;
+  overflow: hidden; }
+
 .page-content {
   padding: 30px 0; }
 
@@ -455,3 +401,90 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+/**
+ * Site header
+ */
+.site-header {
+  min-height: 56px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left; }
+  .site-title, .site-title:visited {
+    color: #424242; }
+
+.site-nav {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 56px;
+  background: rgba(10, 10, 10, 0.4); }
+  .site-nav .menu-icon {
+    display: none; }
+  .site-nav .page-link {
+    color: #fafafa;
+    line-height: 1.5; }
+    .site-nav .page-link:not(:last-child) {
+      margin-right: 20px; }
+  @media screen and (max-width: 600px) {
+    .site-nav {
+      position: absolute;
+      top: 9px;
+      right: 15px;
+      background-color: #333333;
+      border: 1px solid #e8e8e8;
+      border-radius: 5px;
+      text-align: right; }
+      .site-nav .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center; }
+        .site-nav .menu-icon > svg {
+          width: 18px;
+          height: 15px; }
+          .site-nav .menu-icon > svg path {
+            fill: #424242; }
+      .site-nav .trigger {
+        clear: both;
+        display: none; }
+      .site-nav:hover .trigger {
+        display: block;
+        padding-bottom: 5px; }
+      .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin-left: 20px; }
+        .site-nav .page-link:not(:last-child) {
+          margin-right: 0; } }
+
+.menu {
+  list-style-type: none; }
+  .menu li {
+    display: inline-block; }
+    .menu li::after {
+      content: ' | '; }
+    @media screen and (max-width: 600px) {
+      .menu li {
+        display: block; }
+        .menu li::after {
+          content: ''; } }
+  .menu li:last-child::after {
+    content: ''; }
+
+.show-for-palm {
+  display: none; }
+  @media screen and (max-width: 600px) {
+    .show-for-palm {
+      display: block; } }

@@ -1,0 +1,7 @@
+.show-for-palm{
+    display: none;
+
+    @include media-query($on-palm){
+        display: block;
+    }
+}
