@@ -143,6 +143,22 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+.hero {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  display: flex; }
+
+.hero-content {
+  margin: auto;
+  max-width: 800px; }
+
+.hero-title {
+  font-size: calc( 16px + 4vw ); }
+  @media screen and (max-width: 800px) {
+    .hero-title {
+      text-align: center; } }
+
 /**
  * Site footer
  */

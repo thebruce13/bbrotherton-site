@@ -1,0 +1,19 @@
+.hero{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.hero-content{
+    margin: auto;
+    max-width:  800px;
+}
+
+.hero-title{
+    font-size: calc( #{$base-font-size} + 4vw );
+
+    @include media-query($on-laptop){
+        text-align: center;
+    }
+}

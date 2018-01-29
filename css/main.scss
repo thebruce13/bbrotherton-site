@@ -53,6 +53,7 @@ $on-desktop:       1200px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "index",
         "layout",
         "syntax-highlighting",
         'nav',
