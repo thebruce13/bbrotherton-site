@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article class="post">
+
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+
+    <div class="post-content">
+        <section>
+            {{content}}
+        </section>
+        <article>
+        <section>
+            <h2>Experience</h2>
+                {% for item in site.data.resume.experience %}
+                    <h3>{{item.business}}</h3>
+                    <b>{{item.position}}</b><br>
+                    <i>{{item.location}}</i> - {{item.date}}
+                    <div>
+                        {{item.responsibilities}}
+                    </div>
+                {% endfor %}
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>Education</h2>
+                {% for item in site.data.resume.education %}
+                    <h3>{{item.school}}</h3>
+                    <b>{{item.location}}</b><br>
+                    <i>{{item.degree}}</i> - {{item.date}}
+                    <div>
+                        {{item.description}}
+                    </div>
+                {% endfor %}
+        </section>
+        </article>
+</article>
