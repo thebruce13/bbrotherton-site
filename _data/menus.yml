@@ -1,18 +1,23 @@
-# Menus for jekyll menus
-
+---
 main:
- - url: /
-   title: Home
-   identifier: home
- - url: /work
-   title: Work
-   identifier: work
- - url: /resume
-   title: Resume
-   identifier: resume
- - url: /contact
-   title: Contact
-   identifier: contact
- - url: http://design.brucebrotherton.com
-   title: Design
-   special: true
+- identifier: 
+  url: http://design.brucebrotherton.com
+  weight: -1
+  special: true
+  title: Design
+- identifier: contact
+  url: "/contact"
+  weight: -1
+  title: Contact
+- identifier: resume
+  url: "/resume"
+  weight: -1
+  title: Resume
+- identifier: work
+  url: "/work"
+  weight: -1
+  title: Work
+- identifier: home
+  url: "/"
+  weight: -1
+  title: Home

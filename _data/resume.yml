@@ -1,29 +1,40 @@
-#Data file for my resume
-experience: 
+---
+experience:
 - business: Ad-Lit Inc
   position: Front-End Web Developer
   location: Wisconsin Dells, WI
   date: April 2016 - Present
-  responsibilities: Use Wordpress to develop custom responsive templates for customers. Utilized a modern workflow with Gulp, Timber, Twig templates, and Foundation. Updated projects using Bitbucket and GIT. Created training documentation for clients when handing off a new site. 
+  responsibilities: Use Wordpress to develop custom responsive templates for customers.
+    Utilized a modern workflow with Gulp, Timber, Twig templates, and Foundation.
+    Updated projects using Bitbucket and GIT. Created training documentation for clients
+    when handing off a new site.
 - business: American Girl
   position: Front-End Web Developer
   location: Middleton, WI
   date: August 2014 - March 2016
-  responsibilities: Responsible for creating web content using HTML, CSS, jQuery, and PHP. Communicated several processes by documenting workflows and creating tutorials. Integral member and driving force behind  Email marketing designs and templates.
+  responsibilities: Responsible for creating web content using HTML, CSS, jQuery,
+    and PHP. Communicated several processes by documenting workflows and creating
+    tutorials. Integral member and driving force behind  Email marketing designs and
+    templates.
 - business: Edese Doret
   position: Previsualization artist
   location: New York, NY
   date: September 2009 - June 2010
-  responsibilities: Was part of a small team that took reference and blueprint designs to model, texture, and render hard surface models for 3D scenes. Had tight deadlines and worked quickly and efficiently in order to meet them.
+  responsibilities: Was part of a small team that took reference and blueprint designs
+    to model, texture, and render hard surface models for 3D scenes. Had tight deadlines
+    and worked quickly and efficiently in order to meet them.
 education:
 - school: Northeast Wisconsin Technical College
   location: Green Bay, WI
   degree: Certificate in Computer Support Specialist
   date: January 2010 - August 2014
-  description: Took courses for Network Specialist and Computer Support Specialist. Received instruction in Web Design, Visual Basic, Linux, Bash and Batch scripting, Cisco Routers, Computer Servers, Computer Hardware, Databases, and Computer Support.
+  description: Took courses for Network Specialist and Computer Support Specialist.
+    Received instruction in Web Design, Visual Basic, Linux, Bash and Batch scripting,
+    Cisco Routers, Computer Servers, Computer Hardware, Databases, and Computer Support.
 - school: Full Sail University
   location: Winter Park, FL
   degree: Bachelor in Computer Animation
   date: November 2005 - May 2008
-  description: Learned how to use a great deal of the Autodesk software including- Modeling, shading & lighting, rendering, and game asset creation. While being under tight deadlines and increasing demands. 
-  
+  description: Learned how to use a great deal of the Autodesk software including-
+    Modeling, shading & lighting, rendering, and game asset creation. While being
+    under tight deadlines and increasing demands.
