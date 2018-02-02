@@ -74,16 +74,15 @@
  .page-content-wrapper{
     display: flex;
     position: relative;
-    height: 100vh;
-    z-index: -1;
-    padding-top: 2rem;
-    background: linear-gradient(to bottom right, rgba(0, 102, 255, 0.4), rgba(255, 115, 0, 0.2)),
-    url('../img/norbert-levajsics-186341.jpg') center center;
+    min-height: 100vh;
+    padding-top: 3rem;
+    background: linear-gradient(to bottom right, rgba(0, 102, 255, 0.4), rgba(255, 115, 0, 0.2));
     background-size: cover;
     background-color: rgb(176, 182, 248);
     overflow:hidden;
  }
 .page-content {
+    width: 100%;
     padding: $spacing-unit 0;
 }
 

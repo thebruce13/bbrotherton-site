@@ -1,0 +1,28 @@
+.page-content-wrapper.front-page{
+    background: linear-gradient(to bottom right, rgba(0, 102, 255, 0.4), rgba(255, 115, 0, 0.2)),
+    url('../img/norbert-levajsics-186341.jpg') center center;
+    background-size: cover;
+    background-color: rgb(176, 182, 248);
+}
+
+.hero{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.hero-content{
+    margin: auto;
+    max-width:  800px;
+}
+
+.hero-title{
+    font-size: calc( #{$base-font-size} + 4vw );
+
+    @include media-query($on-laptop){
+        text-align: center;
+    }
+}

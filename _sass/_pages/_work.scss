@@ -1,0 +1,17 @@
+.site-list{
+    list-style-type:none;
+    margin-left: 0;
+}
+
+.site-link{
+    display: inline-block;
+}
+
+.site-thumb{
+    display: block;
+}
+
+.site-title{
+    color: $white;
+    width:100%;
+}
