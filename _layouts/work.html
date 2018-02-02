@@ -12,9 +12,9 @@ layout: default
             {{content}}
         </section>
         <section>
-            <ul class="site-list">
+            <ul class="site-list row">
                 {% for item in site.data.work %}
-                <li>
+                <li class="col">
                     <a class="site-link" target="_blank" href="{{item.url}}">
                         <img src="{% image website {{item.thumbnail}} %}" class="site-thumb">
                         <h3 class="site-title text-upper text-center">{{ item.title }}</h3>
