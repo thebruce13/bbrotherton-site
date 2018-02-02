@@ -2,7 +2,7 @@
 <ul>
 {% for item in menu %}
   <li class="menu-item-{{ loop.index }}">
-    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+    <a href="{{ item.url }}" class="{% if item.special %}special{% endif %}" title="Go to {{ item.title }}">{{ item.title }}</a>
     {% if item.children %}
       {% assign menu = item.children %}
       {% include menu.html %}
