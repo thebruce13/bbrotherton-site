@@ -95,8 +95,14 @@
     }
 }
 
+.main-nav a:hover{
+    color: mix($white, $brand-color, 60%);
+}
+
 .menu{
     list-style-type: none;
+    font-weight: 700;
+    text-transform: uppercase;
 
     li {
         display: inline-block;

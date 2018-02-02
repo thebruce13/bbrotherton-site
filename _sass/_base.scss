@@ -93,13 +93,14 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $white;
     text-decoration: none;
+    transition: color 0.2s;
 
     &:visited {
         color: $white;
     }
 
     &:hover {
-        color: mix($black, $white, 10%);
+        color: $brand-color;
     }
 }
 
