@@ -27,7 +27,7 @@ $base-line-height: 1.5;
 $text-color:       $white;
 
 // Width of the content area
-$content-width:    1200px;
+$content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -55,8 +55,10 @@ $on-desktop:       1200px;
         '_helpers/normalize',
         '_partials/base',
         '_partials/layout',
-        '_helpers/helpers',
         '_partials/nav',
+
+        '_helpers/helpers',
+
         '_pages/index',
         '_pages/work'
 ;
