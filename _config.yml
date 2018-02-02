@@ -19,7 +19,7 @@ github_username:  thebruce13
 
 # Build settings
 markdown: kramdown
-permalinks: pretty
+permalink: pretty
 
 image:
   presets:
