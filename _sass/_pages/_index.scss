@@ -14,8 +14,12 @@
     display: flex;
 }
 
-.hero-content{
+.hero-content-wrapper{
     margin: auto;
+}
+
+.hero-content{
+    margin:0 auto;
     max-width:  800px;
 }
 
