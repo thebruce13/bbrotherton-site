@@ -4,11 +4,14 @@
 }
 
 .site-link{
-    display: inline-block;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .site-thumb{
-    display: block;
+    display: inline;
 }
 
 .site-title{
