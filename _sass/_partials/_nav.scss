@@ -96,8 +96,18 @@
     }
 }
 
-.main-nav a:hover{
+.main-nav {
+    a.special{
+        color: mix($white, $brand-color, 60%);
+
+        &:hover{
+            color: rgb(255, 139, 44);
+        }
+    }
+
+    a:hover{
     color: mix($white, $brand-color, 60%);
+    }
 }
 
 .menu{
