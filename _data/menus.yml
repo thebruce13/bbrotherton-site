@@ -1,23 +1,23 @@
 ---
 main:
+- identifier: home
+  url: "/"
+  weight: 1
+  title: Home
+- identifier: work
+  url: "/work"
+  weight: 2
+  title: Work
+- identifier: resume
+  url: "/resume"
+  weight: 3
+  title: Resume
+- identifier: contact
+  url: "/contact"
+  weight: 4
+  title: Contact
 - identifier: 
   url: http://design.brucebrotherton.com
   weight: 5
   special: true
   title: Design
-- identifier: contact
-  url: "/contact"
-  weight: 4
-  title: Contact
-- identifier: resume
-  url: "/resume"
-  weight: 3
-  title: Resume
-- identifier: work
-  url: "/work"
-  weight: 2
-  title: Work
-- identifier: home
-  url: "/"
-  weight: 1
-  title: Home
