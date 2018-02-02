@@ -74,8 +74,8 @@
  .page-content-wrapper{
     display: flex;
     position: relative;
+    min-height: 400px;
     height: 100vh;
-    max-height: 1000px;
     padding-top: 3rem;
     background: linear-gradient(to bottom right, rgba(0, 102, 255, 0.4), rgba(255, 115, 0, 0.2));
     background-size: cover;
