@@ -1,10 +1,5 @@
 ---
 main:
-- identifier: 
-  url: http://design.brucebrotherton.com
-  weight: 5
-  special: true
-  title: Design
 - identifier: contact
   url: "/contact"
   weight: 4
